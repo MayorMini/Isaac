@@ -1,0 +1,102 @@
+#rating-div{
+    /* width: 50%; */
+    height: 100px;
+    border: 1px solid;
+    width: 30%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #7c5280;
+    border: none;
+}
+
+#rate1{
+    border-right: 2px solid;
+}
+
+#company-logo{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* background-color: #7c5280; */
+    /* margin-left: 5px; */
+}
+
+#solana{
+    background-image: url('../../../Downloads/solana-removebg-preview.png');
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 150px;
+}
+
+#binance{
+    background-image: url('../../../Downloads/binance-removebg-preview.png');
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 150px;
+}
+
+#bitmex{
+    background-image: url('../../../Downloads/bitmex-removebg-preview.png');
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 150px;
+}
+
+#coinbase{
+    background-image: url('../../../Downloads/coinbase-removebg-preview.png');
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 150px;
+}
+
+
+@media screen and (max-width:800px) {
+    #rating-div{
+        width: 500px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:430px){
+    #rating-div{
+        width: 300px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:330px){
+    #rating-div{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:280px){
+    #rating-div{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+}
+
+

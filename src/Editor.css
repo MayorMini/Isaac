@@ -1,0 +1,215 @@
+#editors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#button{
+    width: 100px;
+    height:50px;
+    border: none;
+    background-color: #9a7aa4;
+}
+
+#main-editor{
+    height: 150px;
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+
+#editors-text{
+    color: #a580aa;
+}
+
+#mainnftcard{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#xxx{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+}
+
+#img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#nft-card{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid; */
+    align-items: center;
+    background-color: #6e4774;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#realcard{
+    /* margin-left: 50px; */
+   
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#ownersImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#owner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#info-no{
+    color: #d91eaa;
+}
+
+#p{
+    margin: 2px;
+}
+
+#bid{
+    color: #d91eaa;
+}
+
+
+
+
+@media screen and (max-width:950px) {
+    #nft-display{
+        margin-left: 10px;
+    }
+
+    #nft-card{
+        width: 700px;
+        height: 400px;
+        /* border: 1px solid; */
+        align-items: center;
+        background-color: #6e4774;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    #xxx{
+        width: 400px;
+        height: 200px;
+        border: 1px solid;
+    }
+    
+    #img{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #realcard{
+        /* margin-left: 50px; */
+       
+        width: 300px;
+        height: 400px;
+        margin-left: 130px
+    }
+}
+
+@media screen and (max-width:550px){
+    #editors{
+        justify-content: space-evenly;
+        margin-top: 0;
+
+    }
+
+    #button{
+         margin-top: 30px;
+         margin-left: 10px; 
+    }
+
+    #nft-display{
+        margin-top: 60px;
+    }
+
+    #realcard{
+        
+        margin-left: 20px
+    }
+
+    #nft-card{
+        width: 400px;
+        height: 400px;
+       
+    }
+
+      
+    #img{
+        width: 300px;
+        
+    }
+
+    #xxx{
+        width: 300px;
+        
+    }
+}
+
+@media screen and (max-width:330px){
+    #nft-display{
+        margin-top: 150px;
+    }
+
+          
+    #img{
+        width: 200px;
+        
+    }
+
+    #xxx{
+        width:200px;
+        
+    }
+    #nft-card{
+        width: 250px;
+        height: 450px;
+       margin-left: 10px;
+    }
+
+    #info{
+        /* display: flex;
+        justify-content: space-around;
+        margin-top: 10px; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 200px;
+    }
+
+    #owner{
+        /* display: flex;
+        justify-content: space-around;
+        margin-top: 10px; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 200px;
+    }
+}
+
+@media screen and(max-width:280px) {
+    #nft-card{
+      
+       margin-left: 0;
+    }
+}

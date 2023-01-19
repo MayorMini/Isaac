@@ -1,0 +1,25 @@
+#main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#last-footer{
+    margin-top: 120px;
+    background-color: #752075; 
+}
+
+#footer-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#iconn{
+    margin-left: 10px;
+    color: #eae1ea;
+    background-color:  #da17da;
+}

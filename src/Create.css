@@ -1,0 +1,44 @@
+#activities{
+   display: flex; 
+   justify-content: space-around;
+}
+
+#main-activities{
+    margin-top: 30px;
+}
+
+#activities-head{
+    margin-bottom: 50px;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+    /* background-color: azure; */
+    color: azure;
+}
+
+#activities-title{
+    color: #d91eaa;
+}
+
+#activities-div{
+    padding: 10px;
+}
+
+
+@media screen and (max-width:550px) {
+    #activities{
+        display: flex; 
+        justify-content: space-around;
+        flex-wrap: wrap;
+     }
+
+     #main-activities{
+        margin-top: 150px;
+    }
+
+    #activities-head{
+        margin-bottom: 10px;
+    }
+}
